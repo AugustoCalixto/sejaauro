@@ -173,7 +173,7 @@ export default function PaymentRates() {
                         <div className="font-semibold text-gray-600 dark:text-black">Modalidade</div>
                         <div className="font-semibold text-gray-600 dark:text-black">Taxa</div>
                     </div>
-                    {displayedRates.map((rate, index) => (
+                    {displayedRates.map((rate: any, index) => (
                         <div key={index} className="grid grid-cols-2 gap-4 py-2 border-t border-gray-100">
                             <div className="text-sm dark:text-black">{rate.modalidade}</div>
                             <div className="text-sm dark:text-black">{rate.taxa[selectedPlan].toFixed(2)}%</div>
