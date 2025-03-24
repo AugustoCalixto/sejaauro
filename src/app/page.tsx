@@ -53,8 +53,8 @@ export default function Home() {
       </motion.div>
       <motion.div id="planos" ref={ref2} initial="initial" animate={inView2 ? "animate" : "initial"} variants={fadeInUp}>
         <SectionTitle
-          preTitle="Um plano feito para você"
-          title="Junte-se a nós e aproveite as taxas mais competitivas do mercado!"
+          preTitle="Venha para a Auros e aproveite as taxas mais vantajosas do mercado!"
+          title="Um plano feito para você! 🚀"
           sectionName="Planos"
         >
           Na HeroCash, temos opções personalizadas para atender às suas necessidades e garantir que você economize ao máximo com cada transação.

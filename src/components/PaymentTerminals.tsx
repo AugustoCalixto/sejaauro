@@ -16,6 +16,7 @@ interface PricingOption {
     cashPrice: number
     buttonText: string
     features: Feature[]
+    link: string
 }
 
 const pricingOptions: PricingOption[] = [
@@ -24,6 +25,7 @@ const pricingOptions: PricingOption[] = [
         installmentPrice: 11.65,
         cashPrice: 139.80,
         buttonText: "PEDIR A MINI",
+        link: "https://loja.sejaauros.com.br/produtos/auros-mini/",
         features: [
             { text: "Sem aluguel", available: true },
             { text: "Interface rápida", available: true },
@@ -40,6 +42,7 @@ const pricingOptions: PricingOption[] = [
         installmentPrice: 24.16,
         cashPrice: 289.90,
         buttonText: "PEDIR A PRO",
+        link: "https://loja.sejaauros.com.br/produtos/auros-pro/",
         features: [
             { text: "Sem aluguel", available: true },
             { text: "Interface rápida", available: true },
@@ -56,6 +59,7 @@ const pricingOptions: PricingOption[] = [
         installmentPrice: 41.66,
         cashPrice: 499.90,
         buttonText: "PEDIR A SMART",
+        link: "https://loja.sejaauros.com.br/produtos/auros-smart/",
         features: [
             { text: "Sem aluguel", available: true },
             { text: "Interface rápida", available: true },
@@ -105,7 +109,7 @@ const PricingCard: React.FC<{ option: PricingOption }> = ({ option }) => (
                         OU R${option.cashPrice.toFixed(2)} À VISTA
                     </p>
                 </div>
-                <a href="https://api.whatsapp.com/send/?phone=5527996200358&text=Ol%C3%A1%21+Vim+atrav%C3%A9s+do+site+e+gostaria+de+adquirir+uma+maquininha%21&type=phone_number&app_absent=0" target='_blank'>
+                <a href={option.link} target='_blank'>
                     <button className="w-full mb-6 bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
                         {option.buttonText}
                     </button>

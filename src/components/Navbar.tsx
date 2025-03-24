@@ -43,8 +43,8 @@ export function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <Link className=" py-2 px-4  rounded font-medium text-black border-white bg-yellow-400 hover:bg-yellow-600 hover:text-gray-900" href="https://auros.new.paytime.com.br">
-              Area do cliente
+            <Link className=" py-2 px-4  rounded font-medium text-black border-white bg-yellow-400 hover:bg-yellow-600 hover:text-gray-900" href="https://conta.sejaauros.com.br">
+              Área do cliente
             </Link>
           </div>
 
