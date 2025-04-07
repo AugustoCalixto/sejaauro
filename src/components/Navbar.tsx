@@ -18,7 +18,7 @@ export function Navbar() {
 
   return (
     <nav className="sticky top-0 bg-white bg-opacity-80 backdrop-blur-lg z-50 shadow-md">
-      <AdBanner text='🔥 Débito 1,39% 🔥 Crédito 2,96% 🔥 12x 10,95% 🔥 18x 14,60% 🚚 Frete Grátis para todo Brasil 🤑 Recebimento em um dia útil 💳 Máquinas em até 12x sem juros' />
+      <AdBanner text='🔥 Débito 1,39% 🔥 Crédito 2,91% 🔥 12x 11,51% 🔥 18x 15,39% 🚚 Frete Grátis para todo Brasil 🤑 Recebimento em um dia útil 💳 Máquinas em até 12x sem juros' />
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center">

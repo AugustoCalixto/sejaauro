@@ -17,25 +17,26 @@ interface InstallmentOption {
         FLASH: number
     }
 }
-
 const installmentOptions: InstallmentOption[] = [
     { value: 1, label: 'Débito', taxa: { MAX: 1.39, BASIC: 1.39, FLASH: 1.39 } },
-    { value: 2, label: 'Crédito à vista', taxa: { MAX: 2.96, BASIC: 2.96, FLASH: 2.96 } },
-    { value: 3, label: 'Parcelado em 2x', taxa: { MAX: 4.35, BASIC: 4.35, FLASH: 4.35 } },
-    { value: 4, label: 'Parcelado em 4x', taxa: { MAX: 5.71, BASIC: 5.71, FLASH: 5.71 } },
-    { value: 5, label: 'Parcelado em 5x', taxa: { MAX: 6.37, BASIC: 6.37, FLASH: 6.37 } },
-    { value: 6, label: 'Parcelado em 6x', taxa: { MAX: 7.04, BASIC: 7.04, FLASH: 7.04 } },
-    { value: 7, label: 'Parcelado em 7x', taxa: { MAX: 7.75, BASIC: 7.75, FLASH: 7.75 } },
-    { value: 8, label: 'Parcelado em 8x', taxa: { MAX: 8.40, BASIC: 8.40, FLASH: 8.40 } },
-    { value: 9, label: 'Parcelado em 9x', taxa: { MAX: 9.04, BASIC: 9.04, FLASH: 9.04 } },
-    { value: 10, label: 'Parcelado em 10x', taxa: { MAX: 9.69, BASIC: 9.69, FLASH: 9.69 } },
-    { value: 11, label: 'Parcelado em 11x', taxa: { MAX: 10.32, BASIC: 10.32, FLASH: 10.32 } },
-    { value: 13, label: 'Parcelado em 13x', taxa: { MAX: 11.57, BASIC: 11.57, FLASH: 11.57 } },
-    { value: 14, label: 'Parcelado em 14x', taxa: { MAX: 12.19, BASIC: 12.19, FLASH: 12.19 } },
-    { value: 15, label: 'Parcelado em 15x', taxa: { MAX: 12.80, BASIC: 12.80, FLASH: 12.80 } },
-    { value: 16, label: 'Parcelado em 16x', taxa: { MAX: 13.41, BASIC: 13.41, FLASH: 13.41 } },
-    { value: 17, label: 'Parcelado em 17x', taxa: { MAX: 14.01, BASIC: 14.01, FLASH: 14.01 } },
-    { value: 18, label: 'Parcelado em 18x', taxa: { MAX: 14.60, BASIC: 14.60, FLASH: 14.60 } }
+    { value: 2, label: 'Crédito à vista', taxa: { MAX: 2.91, BASIC: 2.91, FLASH: 2.91 } },
+    { value: 3, label: 'Parcelado 2x', taxa: { MAX: 4.49, BASIC: 4.49, FLASH: 4.49 } },
+    { value: 4, label: 'Parcelado 3x', taxa: { MAX: 5.22, BASIC: 5.22, FLASH: 5.22 } },
+    { value: 5, label: 'Parcelado 4x', taxa: { MAX: 5.94, BASIC: 5.94, FLASH: 5.94 } },
+    { value: 6, label: 'Parcelado 5x', taxa: { MAX: 6.66, BASIC: 6.66, FLASH: 6.66 } },
+    { value: 7, label: 'Parcelado 6x', taxa: { MAX: 7.36, BASIC: 7.36, FLASH: 7.36 } },
+    { value: 8, label: 'Parcelado 7x', taxa: { MAX: 8.11, BASIC: 8.11, FLASH: 8.11 } },
+    { value: 9, label: 'Parcelado 8x', taxa: { MAX: 8.81, BASIC: 8.81, FLASH: 8.81 } },
+    { value: 10, label: 'Parcelado 9x', taxa: { MAX: 9.49, BASIC: 9.49, FLASH: 9.49 } },
+    { value: 11, label: 'Parcelado 10x', taxa: { MAX: 10.18, BASIC: 10.18, FLASH: 10.18 } },
+    { value: 12, label: 'Parcelado 11x', taxa: { MAX: 10.85, BASIC: 10.85, FLASH: 10.85 } },
+    { value: 13, label: 'Parcelado 12x', taxa: { MAX: 11.51, BASIC: 11.51, FLASH: 11.51 } },
+    { value: 14, label: 'Parcelado 13x', taxa: { MAX: 12.18, BASIC: 12.18, FLASH: 12.18 } },
+    { value: 15, label: 'Parcelado 14x', taxa: { MAX: 12.83, BASIC: 12.83, FLASH: 12.83 } },
+    { value: 16, label: 'Parcelado 15x', taxa: { MAX: 13.48, BASIC: 13.48, FLASH: 13.48 } },
+    { value: 17, label: 'Parcelado 16x', taxa: { MAX: 14.12, BASIC: 14.12, FLASH: 14.12 } },
+    { value: 18, label: 'Parcelado 17x', taxa: { MAX: 14.76, BASIC: 14.76, FLASH: 14.76 } },
+    { value: 19, label: 'Parcelado 18x', taxa: { MAX: 15.39, BASIC: 15.39, FLASH: 15.39 } }
 ]
 
 export default function SalesCalculator() {
