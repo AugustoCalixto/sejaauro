@@ -9,7 +9,7 @@ import AdBanner from './ad-baner'
 
 const navItems = [
   { name: 'Maquininhas', href: '#maquininhas' },
-  { name: 'Planos', href: '#planos' },
+  { name: 'Taxas', href: '#planos' },
   { name: 'Calculadora', href: '#calculadora' },
 ]
 
