@@ -1,0 +1,62 @@
+VISA / Mastercard
+Débito: 0,99%
+Crédito à vista: 2,99%
+Parcelado 2x: 4,41%
+Parcelado 3x: 5,16%
+Parcelado 4x: 5,91%
+Parcelado 5x: 6,64%
+Parcelado 6x: 7,38%
+Parcelado 7x: 8,10%
+Parcelado 8x: 8,81%
+Parcelado 9x: 9,52%
+Parcelado 10x: 10,22%
+Parcelado 11x: 10,91%
+Parcelado 12x: 11,60%
+Parcelado 13x: 12,28%
+Parcelado 14x: 12,95%
+Parcelado 15x: 13,62%
+Parcelado 16x: 14,27%
+Parcelado 17x: 14,93%
+Parcelado 18x: 15,57%
+
+ELO
+Débito: 1,15%
+Crédito à vista: 3,35%
+Parcelado 2x: 4,41%
+Parcelado 3x: 5,16%
+Parcelado 4x: 5,91%
+Parcelado 5x: 6,64%
+Parcelado 6x: 7,38%
+Parcelado 7x: 8,40%
+Parcelado 8x: 9,11%
+Parcelado 9x: 9,82%
+Parcelado 10x: 10,52%
+Parcelado 11x: 11,21%
+Parcelado 12x: 11,90%
+Parcelado 13x: 12,58%
+Parcelado 14x: 13,25%
+Parcelado 15x: 13,92%
+Parcelado 16x: 14,57%
+Parcelado 17x: 15,23%
+Parcelado 18x: 15,87%
+
+Hipercard / Hiper
+Débito: 1,15%
+Crédito à vista: 3,79%
+Parcelado 2x: 4,41%
+Parcelado 3x: 5,16%
+Parcelado 4x: 5,91%
+Parcelado 5x: 6,64%
+Parcelado 6x: 7,38%
+Parcelado 7x: 8,40%
+Parcelado 8x: 9,11%
+Parcelado 9x: 9,82%
+Parcelado 10x: 10,52%
+Parcelado 11x: 11,21%
+Parcelado 12x: 11,90%
+Parcelado 13x: 12,58%
+Parcelado 14x: 13,25%
+Parcelado 15x: 13,92%
+Parcelado 16x: 14,57%
+Parcelado 17x: 15,23%
+Parcelado 18x: 15,87%
