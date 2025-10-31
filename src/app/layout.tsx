@@ -9,8 +9,10 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { PopupWidget } from "@/components/PopupWidget";
 import WhatsappButton from "@/components/WhatsAppButton";
-import Maintenance from "@/components/Maintence";
+import * as pixel from "@/lib/fpixel";
 import { ChangeEvent, useEffect, useState } from "react";
+import Script from "next/script";
+import FacebookPixel from "@/components/FacebookPixel";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -55,6 +57,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.ico" />
+        <FacebookPixel />
       </head>
       <body className={inter.className}>
         {

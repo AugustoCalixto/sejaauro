@@ -200,7 +200,7 @@ export default function SalesCalculator() {
             </div>
 
             <div className="flex justify-center gap-4">
-                <a href="https://api.whatsapp.com/send/?phone=5527996200358&text=Ol%C3%A1%21+Vim+atrav%C3%A9s+do+site+e+gostaria+de+adquirir+uma+maquininha%21&type=phone_number&app_absent=0" target='_blank'>
+                <a href="https://api.whatsapp.com/send/?phone=5527996200358&text=Ol%C3%A1%21+Vim+atrav%C3%A9s+do+site+e+gostaria+de+adquirir+uma+maquininha%21&type=phone_number&app_absent=0" target='_blank' onClick={() => window.fbq && window.fbq('track', 'Contact')}>
                     <button className="px-8 py-3 bg-yellow-600 hover:bg-yellow-700 text-white font-bold rounded-full">
                         Pedir Agora
                     </button>

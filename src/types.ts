@@ -4,3 +4,9 @@ export interface PageProps {
   };
   searchParams: {};
 }
+
+declare global {
+  interface Window {
+    fbq: (...args: any[]) => void;
+  }
+}
