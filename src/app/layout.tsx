@@ -33,17 +33,6 @@ export default function RootLayout({
 }>) {
   const [pass, setPass] = useState(false);
 
-
-  const changePass = (ev: ChangeEvent<HTMLInputElement>) => {
-    if (ev.currentTarget.value == "@52b48") {
-      setPass(true);
-      localStorage.setItem("authenticated", "true");
-    } else {
-      setPass(false);
-      localStorage.setItem("authenticated", "false");
-    }
-  }
-
   useEffect(() => {
     const auth = localStorage.getItem("authenticated");
     if (auth == "true") {

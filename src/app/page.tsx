@@ -1,10 +1,7 @@
 'use client'
-import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
 import { Benefits } from "@/components/Benefits";
-import { Video } from "@/components/Video";
-import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
 import { motion } from 'framer-motion';
@@ -14,7 +11,7 @@ import { benefitOne } from "@/components/data";
 import MaquininhasPagamento from "@/components/PaymentTerminals";
 import PaymentRates from "@/components/PaymentRates";
 import SalesCalculator from "@/components/Calculator";
-import AdBanner from "@/components/ad-baner";
+
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
