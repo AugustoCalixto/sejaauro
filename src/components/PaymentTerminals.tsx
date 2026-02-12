@@ -22,8 +22,8 @@ interface PricingOption {
 const pricingOptions: PricingOption[] = [
     {
         image: chip.src,
-        installmentPrice: 11.65,
-        cashPrice: 139.80,
+        installmentPrice: 7.49,
+        cashPrice: 89.82,
         buttonText: "PEDIR A MINI",
         link: "https://loja.sejaauros.com.br/produtos/auros-mini/",
         features: [
@@ -39,8 +39,8 @@ const pricingOptions: PricingOption[] = [
     },
     {
         image: pro.src,
-        installmentPrice: 24.16,
-        cashPrice: 289.90,
+        installmentPrice: 13.49,
+        cashPrice: 161.82,
         buttonText: "PEDIR A PRO",
         link: "https://loja.sejaauros.com.br/produtos/auros-pro/",
         features: [
@@ -56,8 +56,8 @@ const pricingOptions: PricingOption[] = [
     },
     {
         image: smart.src,
-        installmentPrice: 41.66,
-        cashPrice: 499.90,
+        installmentPrice: 24.16,
+        cashPrice: 289.90,
         buttonText: "PEDIR A SMART",
         link: "https://loja.sejaauros.com.br/produtos/auros-smart/",
         features: [
